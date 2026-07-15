@@ -58,6 +58,6 @@ final class Store: ObservableObject {
     }
 
     static let seedData: [TaskEntry] = [
-        TaskEntry(title: "First Task", stage: stageOptions[0], date: Date(), note: "Tap + to add your own."),
+        TaskEntry(title: "First Task", stage: TaskEntry.stageOptions[0], date: Date(), note: "Tap + to add your own."),
     ]
 }
